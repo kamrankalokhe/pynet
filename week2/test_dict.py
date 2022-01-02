@@ -17,3 +17,4 @@ output += net_connect.send_command('y',expect_string=r'#',strip_prompt=False,str
 
 print(output)
 
+net_connect.disconnect()
